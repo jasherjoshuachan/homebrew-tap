@@ -1,6 +1,6 @@
 cask "headroom-bar" do
-  version "0.1.0"
-  sha256 "f2f657c9d77cb109f1ac7f9c06ca30ad5a458c60756d95e54732c94ff85172ba"
+  version "0.1.1"
+  sha256 "bc1d6b9b87868becb41c04f546bead09d1b267d125957919adebbe4bb6f522a8"
 
   url "https://github.com/jasherjoshuachan/headroom-bar/releases/download/v#{version}/Headroom-#{version}.zip"
   name "Headroom"
