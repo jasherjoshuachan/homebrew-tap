@@ -7,9 +7,11 @@ cask "headroom-bar" do
   desc "Menu bar app showing how much of your AI plans you have left"
   homepage "https://github.com/jasherjoshuachan/headroom-bar"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Headroom.app"
+
+  uninstall quit: "io.github.jasherjoshuachan.headroom"
 
   zap trash: [
     "~/.config/headroom",
